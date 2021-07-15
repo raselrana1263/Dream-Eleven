@@ -1,93 +1,93 @@
 /* Global css */
-body{
+ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 	padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-}
+ }
 
-.container{
+ .container{
 	width: 100%;
     min-height: 100vh;
     padding-left: 8%;
     padding-right: 8%;
 	box-sizing: border-box;
     overflow: hidden;
-}
+ }
 
-.container2{
+ .container2{
     width: 100%;
     min-height: 80vh;
     padding-left: 8%;
     padding-right: 8%;
 	box-sizing: border-box;
     overflow: hidden;
-}
+ }
 
-.container3{
+ .container3{
     width: 1140px;
     margin: 0 auto;
-}
+ }
 
-.navbar{
+ .navbar{
     width: 100%;
     display: flex;
     align-items: center;
     padding: 20px 0;
-}
+ }
 
-.logo{
+ .logo{
     width: 75px;
     cursor: pointer;
     margin: 30px 0;
-}
+ }
 
-.menu-icon{
+ .menu-icon{
     width: 25px;
     cursor: pointer;
     text-align: right;
     display: none;
-}
+ }
 
-nav{
+ nav{
     flex: 1;
     text-align: left;
-}
+ }
 
-nav ul li {
+ nav ul li {
     list-style: none;
     display: inline-block;
     margin-right: 30px;
     text-align: left;
-}
+ }
 
-nav ul li a{
+ nav ul li a{
     text-decoration: none;
     color: #fff;
     font-size: 16px;
     padding: 10px 0px;
-}
+ }
 
-.row{
+ .row{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 80px 0;
-}
+ }
 
-.col-1{
+ .col-1{
     flex-basis: 50%;
     position: relative;
     margin-left: 50px;
-}
+ }
 
-.col-1 h2{
+ .col-1 h2{
     font-size: 54px;
     color: #fff;   
-} 
+ } 
 
-.banner-btn{
+ .banner-btn{
     width: 120px;
     border: 0;
     padding: 12px 10px;
@@ -96,49 +96,49 @@ nav ul li a{
     color: #fff;
     border-radius: 6px;
     cursor: pointer;
-}
+ }
 
-.banner-btn:hover{
+ .banner-btn:hover{
     background: transparent;
     border: 2px solid #E02C6D;
     cursor: pointer;
     transition: width 0.4s;
-}
+ }
 
-.banner-section{
+ .banner-section{
     background-color: rgb(20, 20, 150);
-}
+ }
 
-.highlights-section{
+ .highlights-section{
     background-color:Indigo;
     height: 70vh;
-}
+ }
 
-.highlights-section p{
+ .highlights-section p{
     width: 85%;
-}
+ }
 
-.highlights-section h3{
+ .highlights-section h3{
     font-size: 34px;
     color: #fff;
-}
+ }
 
-.highlights-section p{
+ .highlights-section p{
     color:rgb(223, 217, 217)
-}
+ }
 
-.col-2{
+ .col-2{
     position: relative;
     flex-basis: 50%;
     display:flex;
     align-items: center;
-}
+ }
 
  .banner-img{
     width: 90%;
-}
+ }
 
-.main-btn{
+ .main-btn{
     background-color: #E02C6D;
     color: white;
     padding: 9px 12px;
@@ -147,13 +147,13 @@ nav ul li a{
     border: 1px solid #E02C6D;
     text-decoration: none;
     margin-right: 50px;
-}
+ }
 
-.highlights{
+ .highlights{
     color: black;
-}
+ }
 
-@media only screen and (max-width: 700px){
+ @media only screen and (max-width: 700px){
     nav ul{
         width: 100%;
         background: rgb(27, 27, 163);
@@ -192,11 +192,11 @@ nav ul li a{
     .highlights-section{
         height: 90vh;
     }
-} 
+ } 
 
 
 
-@media (min-width: 320px) and (max-width: 500px) {
+ @media (min-width: 320px) and (max-width: 500px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -234,69 +234,69 @@ nav ul li a{
     .footer-left h4{
         width: 100%;
     }
-}
+ }
 
 /* Banner section start */
-.half-side{
+ .half-side{
     width: 40%;
     float: left;
     margin-left: 4%;
     padding-left: 7%;
     margin-top: 50px;
-}
+ }
 
-.half-side1{
-width: 40%;
-float: left;
-margin-left: 1%;
-padding-left: 5%;
-}
+ .half-side1{
+    width: 40%;
+    float: left;
+    margin-left: 1%;
+    padding-left: 5%;
+ }
 
-.banner-secton .half-side1 img{
-width: 75%;
-margin-top: 10px;
-}
-.font-highlight{
+ .banner-secton .half-side1 img{
+    width: 75%;
+    margin-top: 10px;
+ }
+ .font-highlight{
     color:  #363958;
-}
-.name-highlight{
+ }
+ .name-highlight{
     color: #F46060;
-}
-.link-button{
+ }
+ .link-button{
     text-decoration: none;
     background-color: #F46060;
     padding: 10px 25px;
     color: white;
     font-weight: 700;
     border-radius: 5px;
-}
-.link-button:hover{
+ }
+ .link-button:hover{
     background: transparent;
     border: 2px solid#F46060;
     color: black;
     cursor: pointer;
     transition: 0.4s ease-in-out;
-}
-.banner-secton{
+ }
+ .banner-secton{
     height: 500px;
     margin-bottom: 10px;
     padding-top: 30px;   
     background-color: rgb(27, 27, 163);
-}
-h2{
+ }
+ h2{
     font-size: 40px;
    font-weight: 600;
    
-}
-h1{
+ }
+ h1{
    font-size: 50px;
    font-weight: 600;
    letter-spacing: 1px;
    line-height: 30px;
    color: white;
-}
+ }
 
-@media (min-width: 320px) and (max-width: 500px) {
+ @media (min-width: 320px) and (max-width: 500px) {
     .container{
         width: 100%;
     }
@@ -314,18 +314,17 @@ h1{
         font-size: 40px;
         
     }
-}
+ }
 
 /* player section */
-.grid {
+ .grid {
     margin: 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     align-items: stretch;
     }
-  
-  .grid article {
+ .grid article {
     border: 1px solid #ccc;
     box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
     border-radius: 3px;
@@ -338,16 +337,21 @@ h1{
   }
   
   .grid article img {
-    width: 100%;
-    overflow: hidden;
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+    padding-top: 20px;
   }
     
   .text {
-    padding: 0 10px 10px;
+    padding: 0 20px 20px;
+    text-align: left;
+    color: #6C6C6C;
   }
   
   .text > h3{
     font-size: 25px;
+    color: #18191F;
   }
     
   
@@ -400,7 +404,7 @@ h1{
      color: rgb(51, 51, 51);
 }
 
-.footer-img{
+ .footer-img{
     width: 400px;
     display: block;
     margin: 15px auto;
